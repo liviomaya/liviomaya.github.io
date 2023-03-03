@@ -7,7 +7,8 @@ header {
 
 body {
   /*font-family: "Segoe UI";*/ 
-   font-family: "Fira Sans", sans-serif; 
+  font-family: "Fira Sans", sans-serif; 
+  background-color: #F0F0F0;
   margin: 0px;
   padding: 0px;
 }
@@ -24,6 +25,10 @@ div.content {
   padding-right: 0px;
   line-height: 15pt;
   display: block;
+}
+
+li{
+  margin: 5pt 0;
 }
 
 img.profile {
@@ -71,7 +76,7 @@ a.pagelink.active {
 }
 
 a.paper {
-  font-style: italic;
+   font-style: italic; 
   font-weight: bold;
   line-height: 20pt;
 }
